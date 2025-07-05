@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 
 const router = express.Router();
 
@@ -17,11 +17,10 @@ router.get('/', async (req, res) => {
       { id: '9', name: 'Investment', color: '#84CC16', icon: 'TrendingUp' },
       { id: '10', name: 'Other', color: '#6B7280', icon: 'MoreHorizontal' },
     ];
-    
     res.json(categories);
   } catch (error) {
     res.status(500).json({ message: 'Error fetching categories', error });
   }
 });
 
-export default router; 
+module.exports = router; 
