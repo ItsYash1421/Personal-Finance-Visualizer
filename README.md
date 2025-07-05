@@ -5,8 +5,8 @@ A modern, full-stack personal finance management app to track your income, expen
 ---
 
 ## 🌐 Live Demo
-- **Frontend (Vercel):** [your-vercel-url]
-- **Backend (Render):** [your-render-url]
+- **Frontend (Vercel):** https://personal-finance-visualizer-snowy-ten.vercel.app/
+- **Backend (Render):** https://personal-finance-visualizer-buc9.onrender.com
 
 ---
 
